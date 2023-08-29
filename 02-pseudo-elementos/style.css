@@ -1,0 +1,35 @@
+/* =========== Pseudo-elementos ============ */
+
+/* =============================================== */
+/* ======== First-Letter / First-line ============ */
+/* =============================================== */
+.first-letter::first-letter {
+    color: coral;
+}
+
+.first-line::first-line {
+    color: coral;
+}
+/* Dá para mesclar os dois: */
+.first-line::first-letter {
+    color: blue;
+}
+
+/* =============================================== */
+/* ================ Marker ======================= */
+/* =============================================== */
+li::marker {
+    color: red;
+    font-size: 23px;
+}
+
+/* =============================================== */
+/* ============= Before e After ================== */
+/* =============================================== */
+.before::before {
+    content: url(imagens/carvalho-icone-100.png);
+}
+
+.after::after {
+    content: url(imagens/carvalho-icone-100.png);
+}

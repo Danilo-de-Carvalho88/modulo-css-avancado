@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho {
+    background-color: aquamarine;
+    grid-area: cabecalho;
+}
+
+.menu {
+    background-color: cornflowerblue;
+    grid-area: menu;
+}
+
+.secao-principal {
+    background-color: hotpink;
+    grid-area: secao-principal;
+}
+
+.aside {
+    background-color: orangered;
+    grid-area: aside;
+}
+
+.rodape {
+    background-color: green;
+    grid-area: rodape;
+}
+
+.container {
+    display: grid;
+    /* grid-template-areas: 
+    "cabecalho cabecalho cabecalho"
+    "menu secao-principal aside"
+    "rodape rodape rodape"; */
+
+    /* Forma resulmida do grid-template-areas */
+    grid: 
+    "cabecalho cabecalho cabecalho" 200px /*Altura das linhas*/
+    "menu secao-principal aside" 400px /*Altura das linhas*/
+    "rodape rodape rodape" 250px /*Altura das linhas*/
+    / 160px auto 100px; /*Largura das colunas*/
+}
+
+/* .cabecalho {
+    grid-area: cabecalho;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.secao-principal {
+    grid-area: secao-principal;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.rodape {
+    grid-area: rodape;
+} */

@@ -1,0 +1,60 @@
+/* Modelo de como utilizar uma Pseudo-classe:
+
+seletor:pseudo-classe {
+    propriedade: valor;
+} */
+
+/* Exemplos na prática */
+
+/* =================================================*/
+/* ========== Pseudo-classe "First child"===========*/
+/* =================================================*/
+p:first-child {
+    color: aquamarine;
+}
+
+/* =================================================*/
+/* ========== Pseudo-classe "Last child" ===========*/
+/* =================================================*/
+p:last-child {
+    color: violet;
+}
+
+/* =================================================*/
+/* =========== Pseudo-classe "Not" =================*/
+/* =================================================*/
+
+/* p:not(.padrao) {
+    color: yellow;
+} */
+
+/* Nessa situação ele irá aplicar a cor amarela em todos os elementos que não forem da classe ".padrao". */
+
+/* =================================================*/
+/* ========== Pseudo-classe "nth-child" ============*/
+/* =================================================*/
+li:nth-child(even){
+    color: red;
+}
+/* Nesse exemplo será aplicado a cor vermelha em todos os elementos pares da div */
+
+/* =================================================*/
+/* ======== Pseudo-classe "nth-last-child" =========*/
+/* =================================================*/
+li:nth-last-child(1) {
+    color: blue;
+}
+/* Nesse exemplo será aplicado a cor no 1 elemento, contando de trás pra frente, dentro da div */
+
+/* =================================================*/
+/* ========== Pseudo-classe "only-child" ===========*/
+/* =================================================*/
+p:only-child {
+    color: seagreen;
+    font-weight: bold;
+}
+
+
+
+
+

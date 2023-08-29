@@ -1,0 +1,13 @@
+.flex {
+    height: 600px;
+    width: 100%;
+    background-color: violet;
+    /* 1 Passo: Utilizar o display: flex; */
+    display: flex;
+    justify-content: center; /* Alinhamento horizontal */
+    align-items: center; /* Alinhamento vertical */
+}
+
+.flex h2 {
+    font-size: 60px;
+}

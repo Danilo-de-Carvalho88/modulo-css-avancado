@@ -1,0 +1,23 @@
+.flex-start {
+    justify-content: flex-start; /*Inicia de acordo com o que foi passado no flex-direction. Ele é utilizado como padrão. */
+}
+
+.flex-end {
+    justify-content: flex-end; /* É o inverso do flex-start */
+}
+
+.center {
+    justify-content: center; /* É alinhado no centro */
+}
+
+.space-between {
+    justify-content: space-between; /* Os elementos são alinhados com espaçamentos iguais no decorrer da linha ou coluna. */
+}
+
+.space-around {
+    justify-content: space-around; /* Os elementos são alinhados com espaçamento ao redor de cada elemento */
+}
+
+.space-evenly {
+    justify-content: space-evenly; /* Os elementos são alinhados com espaçamentos iguais no decorrer da linha ou coluna incluindo também as bordas para o espaçamento*/
+}

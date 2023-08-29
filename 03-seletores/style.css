@@ -1,0 +1,63 @@
+/* Formas de estilizar seletores */
+
+h1 {
+    color: green;
+}
+
+.paragrafo {
+    color: blue;
+}
+
+#menu {
+    margin-left: 100px;
+}
+
+/* Ultilizado para setar todos os elementos da página */
+* {
+    font-family: cursive;
+}
+
+/* A utilização de duas classes é bom para porder estilizar atributos que são comuns para o titulo, e com a segunda classe diferenciar algo que não seja comum entre os títulos. */
+.titulo {
+    font-family: fantasy;
+}
+
+.titulo.vermelho {
+    color: red;
+}
+
+.titulo.laranja {
+    color: orange;
+}
+
+/* Estilização de mais de 1 seletor utilizando virgula */
+p, span {
+    font-size: 10px;
+}
+
+/* Estilização com hierarquia */
+.sobre .texto {
+    color: palevioletred;
+    font-size: 17px;
+}
+
+/* Exemplo de estilização de todas as filhas de um elemento pai */
+div > p {
+    color: royalblue;
+    font-size: 15px;
+}
+
+/* Exemplo de estilização do seletor que está após ao que foi informado anteriormente */
+div + p{
+    color: yellow;
+    font-size: 17px;
+}
+
+/* Exemplo de estilização utilizando atributo */
+a[target=_blank]{
+    color: red;
+}
+a[href="google.com"]{
+    color: green;
+}
+

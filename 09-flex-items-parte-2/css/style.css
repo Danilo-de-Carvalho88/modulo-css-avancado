@@ -1,0 +1,40 @@
+.flex-0 {
+    /* flex-grow, flex-shrink, flex-basis. */
+    flex: 0;
+    /* Essa propriedade é um resumo da utilização das propriedades acima */
+    /* É Utilizado para fazer que todos os filhos não ocupem todo espaço do container. */
+}
+
+.flex-1 {
+    flex: 1;
+    /* É Utilizado para fazer que todos os filhos ocupem todo espaço do container. */
+}
+
+.item.item3{
+    order: 1;
+}
+
+.align-self .item3 {
+    align-self: auto;
+    /* É a configuração padrão para o align-self */
+}
+
+.align-self.start .item3 {
+    align-self: flex-start;
+    /* O item é posicionado no inicio da coluna. */
+}
+
+.align-self.end .item3 {
+    align-self: flex-end;
+    /* O item é posicionado no final da coluna. */
+}
+
+.align-self.center .item3 {
+    align-self: center;
+    /* O item é posicionado no centro da coluna. */
+}
+
+.align-self.stretch .item3 {
+    align-self: stretch;
+    /* Vai esticar o item até que ele ocupe todo o espaço do container. */
+}

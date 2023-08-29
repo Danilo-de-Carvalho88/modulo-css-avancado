@@ -1,0 +1,37 @@
+.container {
+    height: 130px;
+}
+
+.flex-start {
+    align-items: flex-start;
+    /*Inicia de acordo com o que foi passado no flex-direction. Ele é utilizado como padrão. */
+}
+
+.flex-end {
+    align-items: flex-end;
+    /* É o inverso do flex-start */
+}
+
+.center {
+    align-items: center;
+    /* É alinhado no centro */
+}
+
+.stretch {
+    align-items: stretch;
+    /* Ele vai esticar os itens para que sua altura preencha todo o container. */
+}
+
+.baseline {
+    align-items: baseline;
+    /* Ele vai organizar os elementos dentro dos flex-items de forma centralizada na linha. */
+}
+
+.baseline .item {
+    flex: 1;
+}
+
+.baseline .item:first-child {
+    padding-top: 20px;
+    /* Faz a alteração do padding do primeiro item do container */
+}
